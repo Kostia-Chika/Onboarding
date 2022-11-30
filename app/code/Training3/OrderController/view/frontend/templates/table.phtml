@@ -1,0 +1,17 @@
+<?php
+/** @var \Training3\OrderController\Block\Block $block */
+
+$order = $block->getOrderWithoutItem();
+?>
+<table>
+    <tr>
+        <td>Order status</td>
+        <td>Total</td>
+        <td>Total invoiced</td>
+    </tr>
+    <tr>
+        <td><?= $order['status'] ?></td>
+        <td><?= $order['total'] ?></td>
+        <td><?= $order['invoice'] ?></td>
+    </tr>
+</table>

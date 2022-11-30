@@ -1,0 +1,20 @@
+parameters:
+    level: 4
+    fileExtensions:
+        - php
+        - phtml
+    paths:
+        - Api
+        - Block
+        - Controller
+        - Helper
+        - Model
+        - Plugin
+        - Repository
+        - Setup
+        - Ui
+        - Validator
+        - view
+includes:
+    - vendor/bitexpert/phpstan-magento/extension.neon
+
