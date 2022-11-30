@@ -18,6 +18,8 @@ class Generic
     }
 
     /**
+     * Get url with params
+     *
      * @param string $route route for Url
      * @param array $params parameters for Url
      *
@@ -27,5 +29,4 @@ class Generic
     {
         return $this->context->getUrlBuilder()->getUrl($route, $params);
     }
-
 }
